@@ -1,13 +1,15 @@
 import React from "react";
+import {FaIndex, FaRegCalenderAlt, FaRegCalender} from "react-icons/fa";
 
 const Sitebar = () =>{
-    return <div className="sitebar">
+    return (<div className="sitebar">
         <p>sitebar</p>
-    <div className="Inbox"></div>
-    <div className="Today"></div>
-    <div className="next">Next 7 days</div>
+    <div className="">
+        <FaIndex />Inbox</div>
+    <div className="">Today</div>
+    <div className="">Next 7 days</div>
     
 
-    </div>
+    </div>)
 }
 export default Sitebar;

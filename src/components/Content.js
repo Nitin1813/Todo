@@ -3,7 +3,7 @@ import Sitebar from "./Sidebar";
 import Tasks from "./Tasks";
 
 const Content = () =>{
-    return <div>
+    return <div className="content">
         <Sitebar />
         <Tasks />
         </div>

@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 .logo{
 width: 50px;
 height: 50px;
@@ -37,11 +37,7 @@ header nav{
 .Today{
   
 }
-.tasks{
-  width: 50%;
-  background-color: red;
-  float: right;
-}
+
 .sitebar{
   user-select: none;
   width: 266px;
@@ -52,17 +48,7 @@ header nav{
   float: left;
   background-color: #fafafa;
 }
-.sitebar div{
-  margin-bottom: 10px;
-  cursor: pointer;
-  padding: 15px;
-  &.active{
-    background-color: width;
-  }
-  .icon{
-    align-items: right;
-  }
-}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
